@@ -42,7 +42,7 @@ const Offers = () => {
         </div>
       </div>
 
-      <p className="text-center text-gray-600 text-[20px] font-medium py-8">Let's Pamper You!</p>
+      <p className="text-center text-gray-600 text-[20px] font-medium py-8">Let&apos;s Pamper You!</p>
 
       {/* Conditionally render each bottom sheet */}
       {isOfferSheetOpen && (

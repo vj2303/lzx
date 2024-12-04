@@ -1,0 +1,8 @@
+{
+  "/partner-details/[id]/service-details/[serviceId]/cart/offers/page": "app/partner-details/[id]/service-details/[serviceId]/cart/offers/page.js",
+  "/partner/page": "app/partner/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/career/page": "app/career/page.js",
+  "/influencer/page": "app/influencer/page.js",
+  "/partner-details/[id]/service-details/[serviceId]/cart/page": "app/partner-details/[id]/service-details/[serviceId]/cart/page.js"
+}

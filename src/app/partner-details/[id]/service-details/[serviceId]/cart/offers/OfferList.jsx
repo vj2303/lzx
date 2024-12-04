@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react'
 import { Provider } from 'react-redux'
 import store from '../../../../../../../redux/store'
@@ -11,7 +9,7 @@ const OfferList = ({ offers }) => {
             <div className='mt-[100px]'>
                 {
                     offers?.map((offer) => {
-                        return <OfferCard offer={offer} />
+                        return <OfferCard key={offer.id} offer={offer} />
                     })
                 }
             </div>
@@ -19,4 +17,4 @@ const OfferList = ({ offers }) => {
     )
 }
 
-export default OfferList
+export default OfferList;

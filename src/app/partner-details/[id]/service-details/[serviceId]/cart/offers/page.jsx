@@ -30,8 +30,8 @@ const fetchOffers = async (id) => {
 
 const page = async ({ params, searchParams }) => {
   const { id } = params
-  // const offers = await fetchOffers(id)
-  const offers = offerData.data.salons.luzo_offers
+  const offers = await fetchOffers(id)
+  // const offers = offerData.data.salons.luzo_offers
   return (
     <div>
       <Navbar />
